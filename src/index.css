@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 12px !important;
+  color: red !important;
+  padding-top: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 100;
+  color: red !important;
+}
+
+.slick-list .slick-track {
+  display: flex;
+  gap: 10px;
+}
